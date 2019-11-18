@@ -4,7 +4,7 @@
 
 ### Sample Usage 
 
- `python bandwidth-hog.py #ofThreads #ofTimesToDL urlAsAString ` 
+ ` python bandwidth-hog.py #ofThreads #ofTimesToDL urlAsAString ` 
 
 Parameters
 
