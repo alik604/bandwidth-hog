@@ -33,4 +33,4 @@ I am pleased to announce that I am being sponsored by your local Internet Servic
 
 ### Legal Notice 
 
-It’s safe to assume using this for the obvious purpose is illegal...  paying fines will “Make America Great Again” and a bluster Donald Trumps retirement fund  
+It’s safe to assume using this for the obvious purpose is illegal...  paying fines will “Make America Great Again” and a bolster Donald Trump's retirement fund  
