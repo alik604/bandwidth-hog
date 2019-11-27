@@ -16,7 +16,7 @@ python bandwidth-hog.py 4 100 "https://www.E-corp.com/file/largeFile.rar"
 
 ### Suggested Integration
 
-Integrate into a bot-net to organically ddos a network. This may require using this proof-of-concept into a headless browser and configuring it to appear to be a popular end-user browser which will in-turn mask traffic as legitimate  
+Integrate into a bot-net to organically ddos a network. This may require merging this proof-of-concept into a headless browser and configuring it to appear to be a popular end-user browser which will in-turn mask traffic as legitimate  
 
 Interesting posts to neglect reading 
 
