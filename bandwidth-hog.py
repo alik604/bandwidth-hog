@@ -13,9 +13,9 @@ url = str(sys.argv[3]) # URL
 
 def doneloadInChucksButDoNotSave(url=url):
     response = urlopen(url)
-    CHUNK = 16 * 1024
+    CHUNK_SIZE = 16 * 1024
     while True:
-        chunk = response.read(CHUNK)
+        chunk = response.read(CHUNK_SIZE)
         if not chunk:
             break
 
