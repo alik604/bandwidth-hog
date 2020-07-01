@@ -6,9 +6,9 @@ from urllib.request import urlopen
 # url = 'http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO'
 # an image in .png
 # url = 'https://www.guru99.com/images/Pythonnew/Python10.2.png'
-n = int(sys.argv[1])
-m = int(sys.argv[2])
-url = str(sys.argv[3])
+num_threads = int(sys.argv[1]) # threads 
+num_times = int(sys.argv[2]) # number of times
+url = str(sys.argv[3]) # URL
 
 
 def doneloadInChucksButDoNotSave(url=url):
@@ -20,10 +20,10 @@ def doneloadInChucksButDoNotSave(url=url):
             break
 
 
-listOfURLsToDownload = [url for i in range(n)]
+listOfURLsToDownload = [url for i in range(num_threads)]
 
-for i in range(m):
-    pool = ThreadPool(n)  # likely inefficient
+for i in range(num_times):
+    pool = ThreadPool(num_threads)  # likely inefficient
     results = pool.map(doneloadInChucksButDoNotSave, listOfURLsToDownload)
     pool.close()
     pool.join()
