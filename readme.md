@@ -2,6 +2,10 @@
 
 > Download a file many times, but do not save the data. Useful for stressing out a network... possibly your own  
 
+## Project moved
+This project has been moved to [/cyber-security](https://github.com/alik604/cyber-security)
+
+
 ## Sample Usage 
 
 Parameters: `python bandwidth-hog.py #ofThreads #ofTimesToDL urlAsAString ` 
